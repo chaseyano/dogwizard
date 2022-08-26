@@ -1,11 +1,46 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en-us">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+<style>
+  body {
+    background-color: #8889B3 ;
+    color:#3D3D4D ;
+    font-family: 'Poppins', sans-serif;
+  }
+  #center {
+    text-align:center;
+  }
+  ul {
+    display:inline-block;
+text-align:left;
+vertical-align:top;
+
+
+  }
+  li {
+    font-size:16px;
+  }
+
+
+</style>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | DogWizard</title>
   </head>
+
+
+
+
   <body style="text-align: center">
+    <div id = 'center'>
+
+    <h1>Dog Wizard</h1>
+
+
     <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
     <script src="Build/WebDW.loader.js"></script>
     <script>
@@ -29,5 +64,17 @@
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
     </script>
+
+    <ul style="list-style: none;">
+      <h2>Press...</h2>
+      <li>A & D to move left and right</li>
+      <li>W to jump</li>
+      <li>Shift to block</li>
+      <li>Arrow keys to shoot fire</li>
+    </ul>
+
+  </div>
+    <p>Created by Chase Yano (cay2116@columbia.edu)</p>
+    <p>Art and animation by the lovely Sarah Gjerde</p>
   </body>
 </html>
